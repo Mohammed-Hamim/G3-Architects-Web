@@ -1,38 +1,40 @@
 /* universal syles */
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: 0px;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: 0px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Shared Styles */
-.display-flex{
-    display:flex;
+.display-flex {
+    display: flex;
 }
 
 /* dark-01 */
-.dark-01{
+.dark-01 {
     color: #131313;
 }
+
 /* dark-02 */
-.dark-02{
+.dark-02 {
     color: #424242;
 }
+
 /* dark-03 */
-.dark-03{
+.dark-03 {
     color: #727272;
 }
 
-.bg-light{
+.bg-light {
     background-color: rgba(255, 144, 14, 0.1);
 }
 
@@ -40,66 +42,75 @@
 /* Header Styles */
 
 /* Navbar Related Styles */
-.navbar{
-justify-content: space-between;
-align-items: center;
+.navbar {
+    justify-content: space-between;
+    align-items: center;
 
 }
-.nav-links{
-    gap:30px;
+
+.nav-links {
+    gap: 30px;
 
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
-    
-    
+
+
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-weight: 500;
-   
+
 }
 
-.navbar, .banner{
+.navbar,
+.banner {
     max-width: 80%;
-    margin:0 auto;
-     
+    margin: 0 auto;
+
 }
-.brand{
+
+.brand {
     font-size: 3rem;
 }
-.brand, .nav-links{
-     padding:50px 0;
+
+.brand,
+.nav-links {
+    padding: 50px 0;
 }
 
 /* banner styling */
-.banner-content{
+.banner-content {
     max-width: 80%;
-    margin:0 auto;
-    border:2px solid red;
+    margin: 0 auto;
+
     text-align: center;
 }
-.banner-title{
-    color:#131313;
+
+.banner-title {
+    color: #131313;
     font-size: 4rem;
     font-weight: 700;
 }
-.banner-image{
+
+.banner-image {
     max-width: 100%;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
 }
 
-.btn-primary{
-    color:white;
+.btn-primary {
+    color: white;
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 32px;
     padding: 20px;
     background-color: #FF900E;
-    border:none;
+    border: none;
     border-radius: 8px;
     margin-bottom: 50px;
 }
@@ -108,16 +119,28 @@ align-items: center;
 /* Responsive Css  */
 /* small device */
 @media screen and (max-width:576px) {
-    .navbar{
+
+    .navbar,
+    .nav-links {
         flex-direction: column;
         width: 100%;
     }
-    .banner{
+
+    .banner {
         width: 100%;
     }
 
-    .banner-content{
-        max-width: 85%;
-         margin:0 auto;
+    .banner-content {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+
     }
 }
