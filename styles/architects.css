@@ -42,25 +42,61 @@
 /* Navbar Related Styles */
 .navbar{
 justify-content: space-between;
+align-items: center;
+
+}
+.nav-links{
+    gap:30px;
 
 }
 .nav-item{
     list-style: none;
-    margin-right: 30px;
+    
     
 }
 
 .nav-link{
     text-decoration: none;
     font-weight: 500;
+   
 }
 
 .navbar, .banner{
-    width: 75%;
+    max-width: 80%;
     margin:0 auto;
      
 }
-
+.brand{
+    font-size: 3rem;
+}
 .brand, .nav-links{
-    margin-top: 50px;
+     padding:50px 0;
+}
+
+/* banner styling */
+.banner-content{
+    max-width: 80%;
+    margin:0 auto;
+    border:2px solid red;
+    text-align: center;
+}
+.banner-title{
+    color:#131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-image img{
+    width: 100%;
+}
+
+.btn-primary{
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #FF900E;
+    border:none;
+    border-radius: 8px;
+    margin-bottom: 50px;
 }
