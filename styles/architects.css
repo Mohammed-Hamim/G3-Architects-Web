@@ -85,6 +85,9 @@ align-items: center;
     font-size: 4rem;
     font-weight: 700;
 }
+.banner-image{
+    max-width: 100%;
+}
 .banner-image img{
     width: 100%;
 }
@@ -99,4 +102,13 @@ align-items: center;
     border:none;
     border-radius: 8px;
     margin-bottom: 50px;
+}
+
+
+/* Responsive Css  */
+/* small device */
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
 }
