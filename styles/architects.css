@@ -115,6 +115,62 @@
     margin-bottom: 50px;
 }
 
+/* Main Section styling */
+main > section{
+    /* margin-top: 130px; */
+}
+
+/* Team Section Styling */
+.teams-section{
+    width: 80%;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 130px auto 0;
+    
+}
+
+ 
+.team-image{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-right: 40px;
+}
+
+.team-image img{
+    width: 100%;
+}
+
+.team-feature{
+    /* flex-direction: column;
+    justify-content: center; */
+    width: 537px;
+  
+}
+
+#medium-text{
+    font-weight: 500;
+    font-size: 3rem;
+}
+#bold-blck{
+    font-weight: 700;
+    font-size: 3rem;
+}
+#orange-blck{
+    font-weight: 700;
+    font-size: 3rem;
+    color:#FF900E;
+}
+
+.feature-title,
+.feature-description{
+    margin-bottom: 30px;
+}
+
+
+
 
 /* Responsive Css  */
 /* small device */
