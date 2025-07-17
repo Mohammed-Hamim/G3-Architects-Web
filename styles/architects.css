@@ -9,7 +9,7 @@
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-optical-sizing: 0px;
   font-weight: 400;
   font-style: normal;
 }
@@ -110,5 +110,14 @@ align-items: center;
 @media screen and (max-width:576px) {
     .navbar{
         flex-direction: column;
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+
+    .banner-content{
+        max-width: 85%;
+         margin:0 auto;
     }
 }
