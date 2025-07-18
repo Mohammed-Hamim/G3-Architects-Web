@@ -136,6 +136,7 @@ main>section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+
     margin-right: 40px;
 }
 
@@ -260,6 +261,7 @@ main>section {
         width: 100%;
     }
 
+
     .banner {
         width: 100%;
     }
@@ -278,8 +280,10 @@ main>section {
 
     }
 
+
     .team-image {
         grid-template-columns: 1fr;
+        margin-right: 0;
     }
 
     .team-feature {
@@ -287,25 +291,26 @@ main>section {
     }
 
 
-     .feature-content,
-     .architect-photo{
+    .feature-content,
+    .architect-photo {
         width: 100%;
-     }
-     .architect-photo div img {
-    width: 100%;
-    height: auto;
-}
+    }
 
-.exprerience-btn {
-    
-    margin-top: -50px;
-    margin-left: -30px;
-    
-}
+    .architect-photo div img {
+        width: 100%;
+        height: auto;
+    }
 
-.exprerience-btn {
-    padding: 20px 15px;
-     
-}
+    .exprerience-btn {
+
+        margin-top: -50px;
+        margin-left: -30px;
+
+    }
+
+    .exprerience-btn {
+        padding: 20px 15px;
+
+    }
 
 }
