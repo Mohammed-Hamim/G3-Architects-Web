@@ -116,57 +116,133 @@
 }
 
 /* Main Section styling */
-main > section{
+main>section {
     /* margin-top: 130px; */
 }
 
 /* Team Section Styling */
-.teams-section{
+.teams-section {
     width: 80%;
-    
+
     justify-content: center;
     align-items: center;
     margin: 130px auto 0;
-    
+
 }
 
- 
-.team-image{
-   
+
+.team-image {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin-right: 40px;
 }
 
-.team-image img{
+.team-image img {
     width: 100%;
 }
 
-.team-feature{
+.team-feature {
     /* flex-direction: column;
     justify-content: center; */
     width: 537px;
-  
+
 }
 
-#medium-text{
+#medium-text {
     font-weight: 500;
     font-size: 3rem;
 }
-#bold-blck{
+
+#bold-blck {
     font-weight: 700;
     font-size: 3rem;
 }
-#orange-blck{
+
+#orange-blck {
     font-weight: 700;
     font-size: 3rem;
-    color:#FF900E;
+    color: #FF900E;
 }
 
 .feature-title,
-.feature-description{
+.feature-description {
     margin-bottom: 30px;
+}
+
+
+/* Enjoyable Feature Section */
+.enjoyable-feature {
+    max-width: 80%;
+
+    margin: 130px auto 0;
+    justify-content: space-between;
+
+
+}
+
+.feature-content,
+.architect-photo {
+    width: 45%;
+}
+
+.architect-photo div img {
+    width: 100%;
+    height: 920px;
+}
+
+.feature-main-title {
+    border-left: 5px solid #FF900E;
+    font-size: 3rem;
+    padding-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.title-description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.feature-item {
+    margin-bottom: 24px;
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.item-description {
+    line-height: 26px;
+}
+
+.exprerience-btn {
+    padding: 45px 42px;
+    background-color: #FF900E;
+    margin-top: -75px;
+    margin-left: -82px;
+    border: none;
+    border-radius: 8px;
+}
+
+#badge {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+#expr-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
 }
 
 
@@ -201,10 +277,11 @@ main > section{
 
     }
 
-    .team-image{
+    .team-image {
         grid-template-columns: 1fr;
     }
-    .team-feature{
+
+    .team-feature {
         width: 80%;
     }
 }
