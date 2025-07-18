@@ -246,9 +246,51 @@ main>section {
     color: white;
 }
 
+/* Some facts Section */
+.some-fact{
+    max-width: 80%;
+    margin: 130px auto 0;
+}
 
+.fact-content{
+    max-width: 542px;
+    margin-bottom: 100px;
+}
 
+.facts-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
 
+.facts-descripton{
+    line-height: 26px;
+}
+
+.facts-card-container{
+     
+    justify-content: space-around;
+  
+}
+
+.facts-card{
+    border-radius: 8px;
+    border:1px solid #FF900E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      padding:45px 35px;
+}
+
+.number{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 /* Responsive Css  */
 /* small device */
 @media screen and (max-width:576px) {
@@ -311,6 +353,11 @@ main>section {
     .exprerience-btn {
         padding: 20px 15px;
 
+    }
+
+    .facts-card-container{
+        flex-direction: column;
+        gap:20px;
     }
 
 }
