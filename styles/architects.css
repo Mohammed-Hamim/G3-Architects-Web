@@ -254,7 +254,8 @@ main>section {
 
     .navbar,
     .nav-links,
-    .teams-section {
+    .teams-section,
+    .enjoyable-feature {
         flex-direction: column;
         width: 100%;
     }
@@ -284,4 +285,22 @@ main>section {
     .team-feature {
         width: 80%;
     }
+
+
+     .feature-content,
+     .architect-photo{
+        width: 100%;
+     }
+     .architect-photo div img {
+    width: 100%;
+    height: auto;
+}
+
+.exprerience-btn {
+    
+    margin-top: -50px;
+    margin-left: -30px;
+    
+}
+
 }
