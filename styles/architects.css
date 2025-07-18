@@ -177,7 +177,8 @@ main > section{
 @media screen and (max-width:576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .teams-section {
         flex-direction: column;
         width: 100%;
     }
@@ -198,5 +199,12 @@ main > section{
     .banner-image img {
         width: 100%;
 
+    }
+
+    .team-image{
+        grid-template-columns: 1fr;
+    }
+    .team-feature{
+        width: 80%;
     }
 }
